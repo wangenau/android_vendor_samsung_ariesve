@@ -34,6 +34,9 @@ PRODUCT_COPY_FILES += \
 
 # Adreno libs
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ariesve/proprietary/app/ProfilerPlaybackTools.apk:system/app/ProfilerPlaybackTools.apk \
+    vendor/samsung/ariesve/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
+    vendor/samsung/ariesve/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/samsung/ariesve/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/samsung/ariesve/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/samsung/ariesve/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -41,10 +44,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/samsung/ariesve/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/samsung/ariesve/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/samsung/ariesve/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/samsung/ariesve/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/samsung/ariesve/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/samsung/ariesve/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/samsung/ariesve/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/samsung/ariesve/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/samsung/ariesve/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/samsung/ariesve/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+    vendor/samsung/ariesve/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/samsung/ariesve/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so
 
 # HW libs
 PRODUCT_COPY_FILES += \
