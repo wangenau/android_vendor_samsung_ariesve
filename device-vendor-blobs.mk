@@ -49,8 +49,7 @@ PRODUCT_COPY_FILES += \
 # HW libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/samsung/ariesve/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
-    vendor/samsung/ariesve/proprietary/lib/hw/sensors.GT-I9001.so:system/lib/hw/sensors.ariesve.so
+    vendor/samsung/ariesve/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so
 
 # Camera libs
 PRODUCT_COPY_FILES += \
