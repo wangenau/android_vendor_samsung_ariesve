@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/ariesve/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/samsung/ariesve/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/samsung/ariesve/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/ariesve/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ariesve/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
