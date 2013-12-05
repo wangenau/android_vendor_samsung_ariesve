@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
 
 # Media libs
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ariesve/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/ariesve/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/ariesve/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/samsung/ariesve/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
