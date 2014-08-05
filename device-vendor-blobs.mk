@@ -79,8 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/ariesve/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ariesve/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ariesve/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ariesve/proprietary/lib/libwvm.so:system/lib/libwvm.so
+    vendor/samsung/ariesve/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
