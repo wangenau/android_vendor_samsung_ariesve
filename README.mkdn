@@ -1,0 +1,13 @@
+ariesve proprietary blobs
+=========================
+
+This repository contains necessary vendor binaries for MSM7x30 devices (especially the Samsung Galaxy S Plus GT-I9001).<br>
+Some of these binaries are removed to substitute them with open-source modules, which are made by [DafabHoid](https://github.com/DafabHoid):
+
+    https://github.com/DafabHoid/msm7x30-proprietary
+
+To get the replaced modules you have to fetch the upper repository, e.g. by adding the following to your roomservice.xml:
+
+    <project path="vendor/samsung/msm7x30" name="DafabHoid/msm7x30-proprietary" remote="github" revision="master" />
+
+More informations for all of the replaced modules can be found in DafabHoid's [README](https://github.com/DafabHoid/msm7x30-proprietary/blob/master/README.md).
