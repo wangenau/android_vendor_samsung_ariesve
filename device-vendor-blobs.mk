@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/ariesve/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/ariesve/proprietary/lib/libcaps.so:system/lib/libcaps.so \
-    vendor/samsung/ariesve/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/samsung/ariesve/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/ariesve/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/ariesve/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \

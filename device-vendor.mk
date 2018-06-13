@@ -16,5 +16,9 @@
 PRODUCT_PACKAGES += \
     rmt_storage
 
+# Camera libs
+PRODUCT_PACKAGES += \
+    libgemini
+
 # Copy prebuilt vendor binaries
 $(call inherit-product, vendor/samsung/ariesve/device-vendor-blobs.mk)
