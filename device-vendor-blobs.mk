@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/ariesve/proprietary/bin/orientationd:system/bin/orientationd \
-    vendor/samsung/ariesve/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/ariesve/proprietary/bin/radish:system/bin/radish
 
 # Adreno libs

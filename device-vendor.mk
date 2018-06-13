@@ -12,5 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Binaries
+PRODUCT_PACKAGES += \
+    rmt_storage
+
 # Copy prebuilt vendor binaries
 $(call inherit-product, vendor/samsung/ariesve/device-vendor-blobs.mk)
